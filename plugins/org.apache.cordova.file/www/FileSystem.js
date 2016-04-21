@@ -1,4 +1,4 @@
-cordova.define("org.apache.cordova.file.FileSystem", function(require, exports, module) { /*
+/*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -46,5 +46,3 @@ FileSystem.prototype.toJSON = function() {
 };
 
 module.exports = FileSystem;
-
-});

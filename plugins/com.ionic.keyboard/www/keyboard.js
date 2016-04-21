@@ -1,5 +1,4 @@
-alert("Keyboard");
-cordova.define("com.ionic.keyboard.keyboard", function(require, exports, module) { 
+
 var argscheck = require('cordova/argscheck'),
     utils = require('cordova/utils'),
     exec = require('cordova/exec');
@@ -36,5 +35,3 @@ module.exports = Keyboard;
 
 
 
-
-});
